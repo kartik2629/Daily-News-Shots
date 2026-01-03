@@ -12,7 +12,7 @@ class NativeAdLoader(private val context: Context) {
     fun load(onLoaded: (NativeAd?) -> Unit) {
         val adLoader = AdLoader.Builder(
             context,
-            "ca-app-pub-3940256099942544/2247696110" // TEST Native ID
+            "ca-app-pub-3106037298707105/5040099250" // TEST Native ID
         )
             .forNativeAd {
                 nativeAd = it
