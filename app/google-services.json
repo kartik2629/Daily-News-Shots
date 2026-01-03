@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1056784311928",
+    "project_id": "dailyshotsnews-420f",
+    "storage_bucket": "dailyshotsnews-420f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056784311928:android:e80219f94cb15169f3ef8d",
+        "android_client_info": {
+          "package_name": "com.example.dailynewsshots"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeOeVGjrTQEb3K-jTe_zWfuPch-OHCKHw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

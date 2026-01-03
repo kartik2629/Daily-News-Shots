@@ -19,3 +19,32 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Retrofit
+-keepattributes Signature
+-keepattributes Exceptions
+-keepclasseswithmembers class * {
+    @retrofit2.http.* <methods>;
+}
+
+# Gson
+-keepattributes EnclosingMethod
+-keepattributes InnerClasses
+-keep class com.example.dailynewsshots.** { *; }
+
+# Hilt
+-keep class com.example.dailynewsshots.MyApplication { *; }
+-keep class dagger.hilt.** { *; }
+-keep interface dagger.hilt.** { *; }
+-keep public class * extends dagger.hilt.internal.component.GeneratedComponent
+
+# Glide
+-keep public class * implements com.bumptech.glide.module.GlideModule
+-keep public class * extends com.bumptech.glide.module.AppGlideModule
+-keep public enum com.bumptech.glide.load.ImageHeaderParser$** {
+  **[] $VALUES;
+  public *;
+}
+
+# Paging
+-keep class androidx.paging.** { *; }
